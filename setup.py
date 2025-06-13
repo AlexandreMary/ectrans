@@ -16,7 +16,7 @@ setup(
         '-DENABLE_ECTRANS4PY=ON',
         '-DENABLE_SINGLE_PRECISION=OFF',
         '-DENABLE_OMP=ON',
-        '-DFFTW_USE_STATIC_LIBS=ON',
+        '-DBUILD_SHARED_LIBS=ON',
     ],
     package_dir={"": "src"},
     cmake_install_dir="src/ectrans4py",
